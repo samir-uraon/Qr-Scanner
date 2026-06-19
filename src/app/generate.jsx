@@ -13,8 +13,7 @@ import QRCode from "react-native-qrcode-svg";
 import ViewShot from "react-native-view-shot";
 import * as Sharing from "expo-sharing";
 import { MaterialIcons } from "@expo/vector-icons";
-import * as FileSystem from "expo-file-system/legacy";
-import { File, Paths } from "expo-file-system";
+
 
 export default function Generate() {
   const [text, setText] = useState("Hello QR");
